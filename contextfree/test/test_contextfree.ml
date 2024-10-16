@@ -20,7 +20,7 @@ let%test "palindromes_2" = derive palindromes [ (* FILL IN HERE *) ] |> to_strin
 let%test "palindromes_3" = derive palindromes [ (* FILL IN HERE *) ] |> to_string = "011101110"
 
 (* #### Exercise 3 *)
-let%test "balanced_parentheses_1" = derive balanced_parentheses [ (* FILL IN HERE *) ] |> to_string = "()[]{}"
+let%test "balanced_parentheses_1" = derive balanced_parentheses [ (* FILL IN HERE*) ] |> to_string = "()[]{}"
 let%test "balanced_parentheses_2" = derive balanced_parentheses [ (* FILL IN HERE *) ] |> to_string = "({})[]"
 let%test "balanced_parentheses_3" = derive balanced_parentheses [ (* FILL IN HERE *) ] |> to_string = "({[][{}()]})"
 
